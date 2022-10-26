@@ -19,7 +19,7 @@ public class Test {
                 "ltoken=2Fkr68gDZ1qejhcIJmmPQGHf632JBi57cDyXybrh; ltuid=75726813; cookie_token=Y34l8tYapvsrd7iQC3VZLcdXxYDCByk6YcST09uI; " +
                 "account_id=75726813; .thumbcache_a5f2da7236017eb7e922ea0d742741d5=F9scTenZ5lffuQlwDoAxe/xpWoGQYW/DsOHhY42G3jVs0Cn9IcW6b2jL3yoTIzZjZ1zDO6o4+53r2RuEnlbWTQ%3D%3D",
                 "100080227");
-        System.out.println(util.getPlayerInfo().toString());
+        System.out.println(util.getPlayerInfo().getAvatarByName("珊瑚宫心海").toString());
     }
 
 }

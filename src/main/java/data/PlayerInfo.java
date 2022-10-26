@@ -23,4 +23,13 @@ public class PlayerInfo {
     private int level;
     private List<AvatarInfo> avatars;
 
+    public AvatarInfo getAvatarByName(String name){
+        for (AvatarInfo info : getAvatars()){
+            if (info.getName().equals(name)){
+                return info;
+            }
+        }
+        return null;
+    }
+
 }
